@@ -1,0 +1,66 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    background-color: rgba(207, 14, 14, 0.632);
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    box-shadow: 0px 6px 2.7px -5px rgb(0, 0, 0);
+    border-radius: 0 0 0.5rem 0.5rem;
+
+
+    .header-logo {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        position: relative;
+        
+        img {
+            display: flex;
+            width: 1.6rem;
+            box-shadow:  0px 6px 2.7px -5px rgb(0, 0, 0);
+            &:hover {
+                transform: rotate(-10deg);
+            }
+        }
+
+      
+        a {
+            font-size: 1rem;
+            text-shadow: -1.5px 0.9px 0.8px rgba(139, 15, 15, 0.842);
+        }
+        
+        
+    }
+
+    .header-nav {
+        display: flex;
+        width: 30%;
+        justify-content: flex-end;
+
+
+        ul {
+            display: flex;
+            gap: 0.2rem;
+
+            li {
+                font-size: 0.7rem;
+                border-radius: 1rem;
+
+
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.247);
+                    transition: 0.3s;
+
+                }
+                
+                a {
+                    padding: 0.1rem 0.2rem;
+                    margin: 0.1rem;
+                    display: block;
+                }
+            }
+        }
+    }
+}
